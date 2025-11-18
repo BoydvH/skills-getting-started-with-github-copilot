@@ -142,3 +142,27 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* Verberg bullet points in de deelnemerslijst */
+.participants-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 0;
+}
+
+.delete-participant {
+  color: #c62828;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 18px;
+  transition: color 0.2s;
+}
+.delete-participant:hover {
+  color: #a31515;
+}
